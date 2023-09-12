@@ -20,7 +20,7 @@ const data = [
     {
         id: 2,
         title: "My Portfolio",
-        desc: "A React & Node Based website to help you find what dishes you can make if u have certain ingredients",
+        desc: "A React, Next & Node based web portfolio to showcase my skills and projects",
         img: "/portfolio_snapshot.png",
         tags: ["Next", "React", "Tailwind", "SCSS", "AOS", "TypeScript"],
     },
