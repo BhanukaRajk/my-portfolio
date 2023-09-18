@@ -4,7 +4,7 @@ import Contact from "@/components/Contact";
 import Hero from "@/components/Block";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
-import Testimonials from "@/components/Testimonials";
+// import Testimonials from "@/components/Testimonials";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -29,7 +29,7 @@ export default function Home() {
       <Hero />
       <Projects />
       <Skills />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
 
