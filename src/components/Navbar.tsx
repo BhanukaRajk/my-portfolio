@@ -3,9 +3,9 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
     return (
-        <div className="container pt-8">
-            <div className="flex justify-between items-center">
-                <div className="text-xl font-medium">Bhanuka</div>
+        <div className="container p-8 z-50">
+            <div className="flex justify-between items-center text-xl">
+                <div className=" font-medium">Bhanuka</div>
 
                 <ul className="gap-10 lg:gap-16 hidden md:flex">
                     <li className="menuLink">Home</li>

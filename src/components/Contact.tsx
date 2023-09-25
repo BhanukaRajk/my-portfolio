@@ -57,9 +57,9 @@ const Contact = () => {
                         ></textarea>
                     </div>
 
-                    <button className="bg-accent p-2 px-6" data-aos="zoom-in-up">
+                    {/* <button className="bg-accent p-2 px-6" data-aos="zoom-in-up">
                         Send
-                    </button>
+                    </button> */}
                 </div>
             </div>
         </div>
