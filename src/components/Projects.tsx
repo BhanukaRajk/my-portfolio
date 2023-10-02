@@ -37,8 +37,15 @@ const projects = [
 
 const Projects = () => {
     return (
-        <div id="projects" className="container pt-32">
-            <Heading title="My Projects" />
+        <section id="projects" className="w-full mb-16 mt-16 px-8">
+            <div className="my-4">
+                <div data-aos="zoom-in-up">
+                    <div className="text-3xl md:text-4xl">Projects</div>
+                    <p className="text-gray-500 pt-2">
+                        These are the projects I have worked on so far.
+                    </p>
+                </div>
+            </div>
             <div className="grid md:gap-10 xl:gap-10 xl:gap-y-10 md:grid-cols-2 lg:grid-cols-3 place-items-center">
                 {projects.map((proj) => (
                     <Card
@@ -53,7 +60,7 @@ const Projects = () => {
                     />
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

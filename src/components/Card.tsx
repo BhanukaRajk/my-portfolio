@@ -16,7 +16,7 @@ interface propsType {
 const Card: React.FC<propsType> = ({ title, desc, img, techs, tools, completion, repo, }) => {
     return (
 
-        <div className=" bg-gray-900 p-5 border border-gray-800 rounded-xl mb-6 lg:mb-0 h-[600px] w-fit">
+        <div data-aos="zoom-in-up" className=" bg-gray-900 p-5 border border-gray-800 rounded-xl mb-6 lg:mb-0 h-[600px] w-fit">
             <div className="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
                 data-te-ripple-init data-te-ripple-color="light">
                 <Image

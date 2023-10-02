@@ -6,23 +6,25 @@ const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(1);
 
     useEffect(() => {
-        // Function to handle scroll event
+        // FUNCTION TO HANDLE SCROLL EVENT
         const handleScroll = () => {
-            if (window.scrollY > 1500) {
+            if (window.scrollY > 2700) {
+                setIsScrolled(5);
+            } else if (window.scrollY > 2000) {
                 setIsScrolled(4);
-            } else if (window.scrollY > 1200) {
+            } else if (window.scrollY > 1500) {
                 setIsScrolled(3);
-            } else if (window.scrollY > 600) {
+            } else if (window.scrollY > 640) {
                 setIsScrolled(2);
             } else {
                 setIsScrolled(1);
             }
         };
 
-        // Add scroll event listener
+        // ADD SCROLL EVENT LISTENER
         window.addEventListener("scroll", handleScroll);
 
-        // Clean up the event listener when the component unmounts
+        // CLEAN UP THE EVENT LISTENER WHEN THE COMPONENT UNMOUNTS
         return () => {
             window.removeEventListener("scroll", handleScroll);
         };
@@ -36,10 +38,8 @@ const Navbar = () => {
     };
 
     return (
-        // <div class="bg-blue-500 backdrop-blur-md bg-opacity-75 p-4 rounded-lg shadow-lg">
-
         <div className="md:flex md:justify-center container hidden fixed left-0 right-0 top-2 px-5 z-50">
-            <div className="flex justify-center  backdrop-blur-lg bg-opacity-50 items-center py-5 w-96 rounded-2xl text-md bg-gray-700">
+            <div className="flex justify-center  backdrop-blur-lg bg-opacity-75 items-center py-5 w-96 rounded-2xl text-md bg-gray-700">
 
                 <ul className="gap-5 lg:gap-10 hidden md:flex">
                     <li className={` cursor-pointer ${isScrolled == 1 ? "text-green-500" : ""}`} onClick={() => scrollToSection("hero")}>Home</li>

@@ -4,7 +4,7 @@ import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
-import Notify from "@/components/Notification";
+// import Notify from "@/components/Notification";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -12,15 +12,16 @@ import { useEffect, useState } from "react";
 import Footer from "@/components/Footer";
 
 export default function Home() {
-  const [isNotification, notifyUser] = useState(false);
+  
+  // const [isNotification, notifyUser] = useState(false);
 
-  const handleNotifyOpen = () => {
-    notifyUser(true);
-  };
+  // const handleNotifyOpen = () => {
+  //   notifyUser(true);
+  // };
 
-  const handleNotifyClose = () => {
-    notifyUser(false);
-  };
+  // const handleNotifyClose = () => {
+  //   notifyUser(false);
+  // };
 
   useEffect(() => {
     AOS.init({
@@ -42,12 +43,10 @@ export default function Home() {
       <Contact />
       <Footer />
 
-      <div className={`${isNotification ? "block" : "hidden"}`}>
-        <Notify
+        {/* <Notify
           isOpen={isNotification}
           onClose={notifyUser}
-        />
-      </div>
+        /> */}
 
     </main>
   );

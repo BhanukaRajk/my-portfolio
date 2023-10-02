@@ -8,7 +8,7 @@ const Footer = () => {
     }
 
     return (
-        <section className="mt-20 bg-gray-900 text-white py-16 px-8 z-30">
+        <section className="mt-36 bg-gray-900 text-white py-16 px-8 z-30">
             <div className="container mx-auto">
                 <div className="flex flex-wrap justify-between gap-10">
                     <div className="w-full md:w-1/2 lg:w-1/3">
@@ -25,7 +25,8 @@ const Footer = () => {
                             </a>
                         </div>
                         <div className="mb-8">
-                            <p className="text-gray-400">An enthusiastic third-year computer science undergraduate with a passion for cutting-edge technologies,
+                            <p className="text-gray-400">
+                                An enthusiastic third-year computer science undergraduate with a passion for cutting-edge technologies,
                                 I am a self-motivated and passionate learner, making daily progress in my journey. With a can-do attitude,
                                 I actively engage in the entire work process, striving for hands-on experience and continuous growth.</p>
                         </div>
@@ -64,10 +65,11 @@ const Footer = () => {
                     </div>
                     <div className="w-full md:w-1/2 lg:w-1/4">
                         <div className="mb-8">
-                            <div className="text-white mb-4">Soon Updates</div>
+                            <div className="text-white mb-4">Future Updates</div>
                             <ul role="list" className="space-y-2">
                                 <li className="cursor-pointer"><a onClick={alertUser} className="text-green-500 hover:text-green-200">Education</a></li>
                                 <li className="cursor-pointer"><a onClick={alertUser} className="text-green-500 hover:text-green-200">Other Skills</a></li>
+                                <li className="cursor-pointer"><a onClick={alertUser} className="text-green-500 hover:text-green-200">Hobbies</a></li>
                             </ul>
                         </div>
                     </div>

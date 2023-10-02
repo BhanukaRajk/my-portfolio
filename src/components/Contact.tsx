@@ -1,40 +1,40 @@
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsTelephone } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+import { IoCallSharp } from "react-icons/io5";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 
-// import Image from "next/image";
-// import mobile from "../../public/mobile.png";
+import Image from "next/image";
+import mobile from "../../public/notification.png";
 
 const Contact = () => {
     return (
-        <div id="contact" className="pt-32 pb-14 container">
+        <section id="contact" className="w-full mb-36 mt-36 px-8">
             <div className="grid md:grid-cols-2 gap-10">
                 <div className="space-y-8">
-                    <h2 className="text-5xl" data-aos="zoom-in-up">
+                    <div className="text-3xl md:text-4xl">
                         Get in touch
-                    </h2>
+                    </div>
                     <p className="text-gray-600 text-[18px] pt-2" data-aos="zoom-in-up">
-                        Drop me a line, give me a call, or send me a message by submitting
-                        the form.
+                        Drop me a text, give me a call, or send me an email to contact me, or you can contact me via social media as well.
                     </p>
 
                     <div className="flex gap-3 items-center" data-aos="zoom-in-up">
-                        <AiOutlineMail size={30} /> bhanukayar@gmail.com
+                        <MdEmail size={30} /> bhanukayar@gmail.com
                     </div>
                     <div className="flex gap-3 items-center" data-aos="zoom-in-up">
-                        <BsTelephone size={30} /> +94 76 2096020
+                        <IoCallSharp size={30} /> +94 762 096 020
                     </div>
                     <div className="flex gap-3 items-center" data-aos="zoom-in-up">
-                        <AiFillGithub size={30} /> <a href="https://github.com/BhanukaRajk">BhanukaRajk - Bhanuka Rajakaruna</a>
+                        <AiFillGithub size={30} /> <a href="https://github.com/BhanukaRajk">BhanukaRajk</a>
                     </div>
                     <div className="flex gap-3 items-center" data-aos="zoom-in-up">
-                        <AiFillLinkedin size={30} /> <a href="https://www.linkedin.com/in/bhanukarajk/">Bhanuka Rajakaruna</a>
+                        <AiFillLinkedin size={30} /> <a href="https://www.linkedin.com/in/bhanukarajk/">bhanukarajk</a>
                     </div>
                 </div>
 
-                <div className="hidden space-y-8">
+                {/* BACK END CONNECTED EMAILING FUNCTIONALITY */}
+                {/* <div className="hidden space-y-8">
                     <div className="flex flex-col gap-1" data-aos="zoom-in-up">
                         <label htmlFor="name">Name</label>
                         <input
@@ -63,18 +63,19 @@ const Contact = () => {
                     <button className="bg-green-600 p-2 px-6 rounded-lg" data-aos="zoom-in-up">
                         Send
                     </button>
-                </div>
-                <div className=" space-y-8 translate-x-16">
-                    {/* <Image
-                        className="w-[100%] max-w-[300px] sm:max-w-[350px] heroFadeIn "
+                </div> */}
+
+                <div className="flex justify-center md:justify-end md:mr-8 my-auto">
+                    <Image
+                        className="w-[100%] max-w-[300px] sm:max-w-[350px] heroFadeIn rounded-lg"
                         data-aos="zoom-in-up"
                         src={mobile}
                         alt="Profile Image"
                         loading="lazy"
-                    /> */}
+                    />
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
