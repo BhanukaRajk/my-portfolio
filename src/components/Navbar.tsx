@@ -36,8 +36,10 @@ const Navbar = () => {
     };
 
     return (
+        // <div class="bg-blue-500 backdrop-blur-md bg-opacity-75 p-4 rounded-lg shadow-lg">
+
         <div className="md:flex md:justify-center container hidden fixed left-0 right-0 top-2 px-5 z-50">
-            <div className="flex justify-center items-center py-5 w-96 rounded-2xl text-md bg-gray-900">
+            <div className="flex justify-center  backdrop-blur-lg bg-opacity-50 items-center py-5 w-96 rounded-2xl text-md bg-gray-700">
 
                 <ul className="gap-5 lg:gap-10 hidden md:flex">
                     <li className={` cursor-pointer ${isScrolled == 1 ? "text-green-500" : ""}`} onClick={() => scrollToSection("hero")}>Home</li>

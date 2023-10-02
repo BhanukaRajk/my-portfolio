@@ -6,7 +6,7 @@ const projects = [
     {
         id: 0,
         title: "MicroCAPS",
-        desc: "A simple management system for the Micro Cars assembling factory in Polgahawela, Sri Lanka",
+        desc: "A simple assembly management system for the Micro Cars assembling factory in Polgahawela, Sri Lanka",
         img: "/microcaps-snapshot.png",
         tech: ["PHP", "CSS", "JavaScript", "MySQL", "Own PHP Framework"],
         tools: ["Visual Studio Code", "PhpStorm", "XAMPP", "DataGrip", "Git", "Adobe Photoshop"],

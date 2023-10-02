@@ -4,6 +4,9 @@ import { BsTelephone } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 
+// import Image from "next/image";
+// import mobile from "../../public/mobile.png";
+
 const Contact = () => {
     return (
         <div id="contact" className="pt-32 pb-14 container">
@@ -31,35 +34,44 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="space-y-8">
+                <div className="hidden space-y-8">
                     <div className="flex flex-col gap-1" data-aos="zoom-in-up">
                         <label htmlFor="name">Name</label>
                         <input
-                            type="text"
-                            className="h-[40px] bg-transparent border border-accent"
                             id="name"
+                            type="text"
+                            className="h-[40px] bg-gray-800 border border-gray-600 rounded-lg"
                         />
                     </div>
                     <div className="flex flex-col gap-1" data-aos="zoom-in-up">
                         <label htmlFor="email">Email</label>
                         <input
-                            type="text"
-                            className="h-[40px] bg-transparent border border-accent"
                             id="email"
+                            type="text"
+                            className="h-[40px] bg-gray-800 border border-gray-600 rounded-lg"
                         />
                     </div>
                     <div className="flex flex-col gap-1" data-aos="zoom-in-up">
                         <label htmlFor="msg">Message</label>
                         <textarea
-                            className="bg-transparent border border-accent"
                             id="msg"
+                            className="bg-gray-800 border border-gray-600 resize-none rounded-lg"
                             rows={8}
                         ></textarea>
                     </div>
 
-                    {/* <button className="bg-accent p-2 px-6" data-aos="zoom-in-up">
+                    <button className="bg-green-600 p-2 px-6 rounded-lg" data-aos="zoom-in-up">
                         Send
-                    </button> */}
+                    </button>
+                </div>
+                <div className=" space-y-8 translate-x-16">
+                    {/* <Image
+                        className="w-[100%] max-w-[300px] sm:max-w-[350px] heroFadeIn "
+                        data-aos="zoom-in-up"
+                        src={mobile}
+                        alt="Profile Image"
+                        loading="lazy"
+                    /> */}
                 </div>
             </div>
         </div>
