@@ -26,9 +26,10 @@ const Footer = () => {
                         </div>
                         <div className="mb-8">
                             <p className="text-gray-400">
-                                An enthusiastic third-year computer science undergraduate with a passion for cutting-edge technologies,
-                                I am a self-motivated and passionate learner, making daily progress in my journey. With a can-do attitude,
-                                I actively engage in the entire work process, striving for hands-on experience and continuous growth.</p>
+                                &quot;Hello, I&apos;m Bhanuka Rajakaruna. I&apos;m a friendly and outgoing individual who enjoys connecting 
+                                with people from all walks of life. I believe in the value of building meaningful relationships and fostering 
+                                a positive atmosphere wherever I go. I&apos;m known for my approachability and willingness to engage in thoughtful 
+                                conversations. My behaviors reflect my commitment to kindness, respect, and empathy in all social interactions.&quat;</p>
                         </div>
                     </div>
                     <div className="w-full md:w-1/2 lg:w-1/4">
