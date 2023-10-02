@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
     return (
-        <div className="container pt-32">
+        <div id="skills" className="container pt-32">
             <div className="grid md:grid-cols-2 gap-20 items-center">
                 <div data-aos="zoom-in-up">
                     <h2 className="text-4xl md:text-5xl">Technologies I work with</h2>
