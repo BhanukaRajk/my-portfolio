@@ -2,8 +2,13 @@ import React from "react";
 import Image from 'next/image';
 
 const Footer = () => {
+
+    const alertUser = () => {
+        alert("This component is under development!");
+    }
+
     return (
-        <section className=" bg-zinc-800 text-white py-16 px-8 z-30">
+        <section className="mt-20 bg-gray-900 text-white py-16 px-8 z-30">
             <div className="container mx-auto">
                 <div className="flex flex-wrap justify-between gap-10">
                     <div className="w-full md:w-1/2 lg:w-1/3">
@@ -30,27 +35,27 @@ const Footer = () => {
                             <div className="text-white mb-4">Find Me On</div>
                             <ul role="list" className="space-y-2">
                                 <li className="">
-                                    <a href="https://www.linkedin.com/in/bhanukarajk/" target="_blank" rel="noopener" className="text-green-400 hover:text-green-200">
+                                    <a href="https://www.linkedin.com/in/bhanukarajk/" target="_blank" rel="noopener" className="text-green-500 hover:text-green-200">
                                         LinkedIn
                                     </a>
                                 </li>
                                 <li className="">
-                                    <a href="https://www.facebook.com/bhanuka.rajakaruna.3/" target="_blank" rel="noopener" className="text-green-400 hover:text-green-200">
+                                    <a href="https://www.facebook.com/bhanuka.rajakaruna.3/" target="_blank" rel="noopener" className="text-green-500 hover:text-green-200">
                                         Facebook
                                     </a>
                                 </li>
                                 <li className="">
-                                    <a href="https://github.com/BhanukaRajk/" target="_blank" rel="noopener" className="text-green-400 hover:text-green-200">
+                                    <a href="https://github.com/BhanukaRajk/" target="_blank" rel="noopener" className="text-green-500 hover:text-green-200">
                                         GitHub
                                     </a>
                                 </li>
                                 <li className="">
-                                    <a href="https://www.behance.net/pdpbrajakar/" target="_blank" rel="noopener" className="text-green-400 hover:text-green-200">
+                                    <a href="https://www.behance.net/pdpbrajakar/" target="_blank" rel="noopener" className="text-green-500 hover:text-green-200">
                                         Behance
                                     </a>
                                 </li>
                                 <li className="">
-                                    <a href="https://www.quora.com/profile/Bhanuka-Yasintha-Rajakaruna/" target="_blank" rel="noopener" className="text-green-400 hover:text-green-200">
+                                    <a href="https://www.quora.com/profile/Bhanuka-Yasintha-Rajakaruna/" target="_blank" rel="noopener" className="text-green-500 hover:text-green-200">
                                         Quora
                                     </a>
                                 </li>
@@ -59,10 +64,10 @@ const Footer = () => {
                     </div>
                     <div className="w-full md:w-1/2 lg:w-1/4">
                         <div className="mb-8">
-                            <div className="text-white mb-4">Updates</div>
+                            <div className="text-white mb-4">Soon Updates</div>
                             <ul role="list" className="space-y-2">
-                                <li className=""><a href="/" className="text-green-400 hover:text-green-200">Education</a></li>
-                                <li className=""><a href="/" className="text-green-400 hover:text-green-200">Other Skills</a></li>
+                                <li className="cursor-pointer"><a onClick={alertUser} className="text-green-500 hover:text-green-200">Education</a></li>
+                                <li className="cursor-pointer"><a onClick={alertUser} className="text-green-500 hover:text-green-200">Other Skills</a></li>
                             </ul>
                         </div>
                     </div>
@@ -70,13 +75,11 @@ const Footer = () => {
             </div>
             <section className="text-center mt-36">
                 <div className="container mx-auto">
-                    <div className="text-gray-400">Designed by Bhanuka Rajakaruna | All rights reserved 2023.</div>
+                    <div className="text-green-600">Designed by Bhanuka Rajakaruna @BTecH | All rights reserved 2023.</div>
                 </div>
             </section>
         </section>
 
-
-        // </footer>
     );
 };
 

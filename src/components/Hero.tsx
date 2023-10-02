@@ -31,9 +31,9 @@ const Block = () => {
                   1200,
                   "I'm a Full Stack Developer",
                   1200,
-                  "A 3rd Year Undergraduate at UCSC",
+                  "Undergraduate at UCSC",
                   1200,
-                  "And a Junior Mechanic",
+                  "Junior Mechanic",
                   1200,
                 ]}
                 wrapper="span"
