@@ -29,7 +29,7 @@ const Footer = () => {
                                 &quot;Hello, I&apos;m Bhanuka Rajakaruna. I&apos;m a friendly and outgoing individual who enjoys connecting 
                                 with people from all walks of life. I believe in the value of building meaningful relationships and fostering 
                                 a positive atmosphere wherever I go. I&apos;m known for my approachability and willingness to engage in thoughtful 
-                                conversations. My behaviors reflect my commitment to kindness, respect, and empathy in all social interactions.&quat;</p>
+                                conversations. My behaviors reflect my commitment to kindness, respect, and empathy in all social interactions.&quot;</p>
                         </div>
                     </div>
                     <div className="w-full md:w-1/2 lg:w-1/4">
