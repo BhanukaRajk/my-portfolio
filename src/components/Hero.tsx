@@ -8,11 +8,11 @@ const Block = () => {
   return (
     <>
       <Navbar />
-      <section id="hero" className="w-full h-screen">
+      <section id="hero" className="w-full h-screen mb-48 md:mb-0">
         <div className="flex flex-col md:flex-row pt-[20%] sm:pt-0 sm:justify-center items-center h-full gap-5 sm:gap-8 sm:px-8">
           <div className="flex justify-center rounded-[50%] md:mb-5 ">
             <Image
-              className="w-[100%] max-w-[300px] sm:max-w-[350px] heroFadeIn heroImage"
+              className="w-[100%] max-w-[300px] md:max-w-[350px] heroFadeIn heroImage"
               data-aos="zoom-in-up"
               src={profileImage}
               alt="Profile Image"

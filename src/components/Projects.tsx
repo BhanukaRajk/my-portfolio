@@ -37,7 +37,7 @@ const projects = [
 
 const Projects = () => {
     return (
-        <section id="projects" className="w-full mb-16 mt-16 px-8">
+        <section id="projects" className="w-full mb-16 mt-32 px-8">
             <div className="my-4">
                 <div data-aos="zoom-in-up">
                     <div className="text-3xl md:text-4xl">Projects</div>
