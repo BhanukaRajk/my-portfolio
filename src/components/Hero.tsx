@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import profileImage from "../../public/avatar3.jpeg";
+import profileImage from "../../public/avatar.jpg";
 import { TypeAnimation } from "react-type-animation";
 import Navbar from "./Navbar";
 
