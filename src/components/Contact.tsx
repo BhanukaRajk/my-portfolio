@@ -22,9 +22,9 @@ const Contact = () => {
                     <div className="flex gap-3 items-center" data-aos="zoom-in-up">
                         <MdEmail size={30} /> bhanukayar@gmail.com
                     </div>
-                    <div className="flex gap-3 items-center" data-aos="zoom-in-up">
+                    {/*<div className="flex gap-3 items-center" data-aos="zoom-in-up">
                         <IoCallSharp size={30} /> +94 762 096 020
-                    </div>
+                    </div>*/}
                     <div className="flex gap-3 items-center" data-aos="zoom-in-up">
                         <AiFillGithub size={30} /> <a href="https://github.com/BhanukaRajk">BhanukaRajk</a>
                     </div>
