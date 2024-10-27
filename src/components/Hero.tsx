@@ -31,9 +31,9 @@ const Block = () => {
                   1200,
                   "I'm a Full Stack Developer",
                   1200,
-                  "Undergraduate at UCSC",
+                  "Computer Science graduate of UCSC",
                   1200,
-                  "Junior Mechanic",
+                  "Have one year experience in industry",
                   1200,
                 ]}
                 wrapper="span"
@@ -42,7 +42,7 @@ const Block = () => {
               />
             </p>
             <p className="text-primaryBlack font-normal text-center text-sm sm:text-lg px-5 sm:px-10 md:px-0 text-opacity-80 md:text-justify">
-              A passionate Computer Science undergraduate and a tech enthusiast 
+              A passionate Computer Science graduate and a tech enthusiast
               who loves to learn new technologies and build software solutions. 
               I am a quick learner and a team player who is always ready to work 
               with others to achieve a common goal.
