@@ -39,13 +39,13 @@ const Navbar = () => {
 
     return (
         <div className="md:flex md:justify-center container hidden fixed left-0 right-0 top-2 px-5 z-50">
-            <div className="flex justify-center  backdrop-blur-lg bg-opacity-75 items-center py-5 w-96 rounded-2xl text-md bg-gray-700">
+            <div className="flex justify-center font-serif backdrop-blur-lg bg-opacity-50 items-center py-5 w-96 rounded-2xl text-md bg-gray-400">
 
                 <ul className="gap-5 lg:gap-10 hidden md:flex">
-                    <li className={` cursor-pointer ${isScrolled == 1 ? "text-green-500" : ""}`} onClick={() => scrollToSection("hero")}>Home</li>
-                    <li className={` cursor-pointer ${isScrolled == 2 ? "text-green-500" : ""}`} onClick={() => scrollToSection("projects")}>Projects</li>
-                    <li className={` cursor-pointer ${isScrolled == 3 ? "text-green-500" : ""}`} onClick={() => scrollToSection("skills")}>Skills</li>
-                    <li className={` cursor-pointer ${isScrolled == 4 ? "text-green-500" : ""}`} onClick={() => scrollToSection("contact")}>Contact</li>
+                    <li className={` cursor-pointer ${isScrolled == 1 ? "border-b-black border-b-2" : ""}`} onClick={() => scrollToSection("hero")}>Home</li>
+                    <li className={` cursor-pointer ${isScrolled == 2 ? "border-b-black border-b-2" : ""}`} onClick={() => scrollToSection("projects")}>Projects</li>
+                    <li className={` cursor-pointer ${isScrolled == 3 ? "border-b-black border-b-2" : ""}`} onClick={() => scrollToSection("skills")}>Skills</li>
+                    <li className={` cursor-pointer ${isScrolled == 4 ? "border-b-black border-b-2" : ""}`} onClick={() => scrollToSection("contact")}>Contact</li>
                 </ul>
 
                 <AiOutlineMenu className="md:hidden" size={30} />

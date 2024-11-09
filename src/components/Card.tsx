@@ -16,8 +16,8 @@ interface propsType {
 const Card: React.FC<propsType> = ({ title, desc, img, techs, tools, completion, repo, }) => {
     return (
 
-        <div data-aos="zoom-in-up" className=" bg-gray-900 p-5 border border-gray-800 rounded-xl mb-6 lg:mb-0 h-[600px] w-fit">
-            <div className="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+        <div data-aos="zoom-in-up" className=" bg-gray-200 p-5 border border-gray-300 rounded-xl mb-6 lg:mb-0 h-[600px] w-fit shadow-lg dark:shadow-black/20">
+            <div className="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat"
                 data-te-ripple-init data-te-ripple-color="light">
                 <Image
                     src={img}
@@ -33,7 +33,7 @@ const Card: React.FC<propsType> = ({ title, desc, img, techs, tools, completion,
                 </a>
             </div>
 
-            <h5 className="mb-3 text-xl font-bold text-green-500">{title}</h5>
+            <h5 className="mb-3 text-xl font-bold text-gray-500">{title}</h5>
             <div className="mb-3 flex items-center justify-center text-sm font-md text-danger dark:text-danger-500">
                 {desc}
             </div>
@@ -42,7 +42,7 @@ const Card: React.FC<propsType> = ({ title, desc, img, techs, tools, completion,
                     <p className=" font-semibold text-emerald-600 dark:text-emarld-300 ">
                         Used technologies:
                     </p>
-                    <p className="text-neutral-500 dark:text-neutral-300 flex flex-wrap">
+                    <p className="text-neutral-800 dark:text-neutral-300 flex flex-wrap">
                         {techs.map((el, index) => (
                             <span key={el}>
                                 {el}
@@ -50,10 +50,10 @@ const Card: React.FC<propsType> = ({ title, desc, img, techs, tools, completion,
                             </span>
                         ))}
                     </p>
-                    <br /><p className=" font-semibold text-emerald-600 dark:text-emarld-300 ">
+                    <br /><p className="font-semibold text-emerald-600 dark:text-emarld-500 ">
                         Tools:
                     </p>
-                    <p className="text-neutral-500 dark:text-neutral-300 flex flex-wrap">
+                    <p className="text-neutral-700 dark:text-neutral-500 flex flex-wrap">
                         {tools.map((el, index) => (
                             <span key={el}>
                                 {el}
@@ -62,7 +62,7 @@ const Card: React.FC<propsType> = ({ title, desc, img, techs, tools, completion,
                         ))}
                     </p>
                     <br />
-                    <p className=" text-neutral-500 dark:text-neutral-300">
+                    <p className="text-neutral-700 dark:text-neutral-500">
                         <small>Completion: <u>{completion}</u></small>
                     </p>
                 </div>

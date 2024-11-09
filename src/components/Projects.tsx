@@ -38,9 +38,9 @@ const projects = [
 const Projects = () => {
     return (
         <section id="projects" className="w-full mb-16 mt-32 px-8">
-            <div className="my-4">
+            <div className="md:pt-24 my-6 text-center">
                 <div data-aos="zoom-in-up">
-                    <div className="text-3xl md:text-4xl">Projects</div>
+                    <div className="text-3xl md:text-4xl font-serif">Projects</div>
                     <p className="text-gray-500 pt-2">
                         These are the projects I have worked on so far.
                     </p>
