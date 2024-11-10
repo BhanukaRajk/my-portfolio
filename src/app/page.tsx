@@ -5,11 +5,12 @@ import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 // import Notify from "@/components/Notification";
+import Timeline from "@/components/Timeline";
+import Footer from "@/components/Footer";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   
@@ -38,6 +39,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <Timeline />
       <Projects />
       <Skills />
       <Contact />
