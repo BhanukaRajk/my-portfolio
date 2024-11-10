@@ -22,6 +22,26 @@
   transform: scale(1.8);
 }
 
+/* CSS for Minimalist Background Stripes */
+.bg-stripes {
+  background-image: repeating-linear-gradient(
+          45deg,
+          rgba(0, 0, 0, 0.03) 0,
+          rgba(0, 0, 0, 0.03) 1px,
+          transparent 1px,
+          transparent 10px
+  );
+}
+
+/* Customize primary black color */
+.text-primaryBlack {
+  color: #333; /* Replace with your exact color */
+}
+
+.bg-primaryBlack {
+  background-color: #333; /* Replace with your exact color */
+}
+
 @keyframes morph {
   0% {
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
