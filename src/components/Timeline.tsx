@@ -14,24 +14,29 @@ const Timeline = () => {
         },
         {
             date: "2024 May",
-            title: "Completed Internship at ISA (AirArabia)",
-            description: "Completed a 6-month internship at ISA, gaining hands-on experience in software development.",
+            title: "Completed the internship at ISA",
+            description: "Completed the 6-month internship at ISA, gaining hands-on experience in software development.",
+        },
+        {
+            date: "2023 November",
+            title: "Started an internship at ISA (AirArabia)",
+            description: "Started an internship at ISA, as a Software Engineer Intern.",
         },
         {
             date: "2021 May",
             title: "Started Computer Science Degree",
             description: "Enrolled at University of Colombo School of Computing for a Bachelor of Science in Computer Science.",
         },
-        {
-            date: "2019 December",
-            title: "Passed Advanced Level Exam",
-            description: "Passed G.C.E. Advanced Level exam (held in 2019) with 1.7619 Z-Score.",
-        },
-        {
-            date: "2017 March",
-            title: "Passed Ordinary Level Exam",
-            description: "Passed G.C.E. Ordinary Level exam (held in 2016) and decided to continue studies at Mahanama College.",
-        }
+        // {
+        //     date: "2019 December",
+        //     title: "Passed Advanced Level Exam",
+        //     description: "Passed G.C.E. Advanced Level exam (held in 2019) with 1.7619 Z-Score.",
+        // },
+        // {
+        //     date: "2017 March",
+        //     title: "Passed Ordinary Level Exam",
+        //     description: "Passed G.C.E. Ordinary Level exam (held in 2016) and decided to continue studies at Mahanama College.",
+        // }
     ];
 
     return (
