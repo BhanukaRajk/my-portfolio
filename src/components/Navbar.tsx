@@ -8,9 +8,9 @@ const Navbar = () => {
     useEffect(() => {
         // FUNCTION TO HANDLE SCROLL EVENT
         const handleScroll = () => {
-            if (window.scrollY > 2700) {
+            if (window.scrollY > 3600) {
                 setIsScrolled(5);
-            } else if (window.scrollY > 2000) {
+            } else if (window.scrollY > 2700) {
                 setIsScrolled(4);
             } else if (window.scrollY > 1500) {
                 setIsScrolled(3);
@@ -46,17 +46,14 @@ const Navbar = () => {
                         onClick={() => scrollToSection("hero")}>Profile
                     </li>
                     <li className={` cursor-pointer ${isScrolled == 2 ? "border-b-black border-b-2" : ""}`}
-                        onClick={() => scrollToSection("projects")}>Timeline
+                        onClick={() => scrollToSection("timeline")}>Timeline
                     </li>
                     <li className={` cursor-pointer ${isScrolled == 3 ? "border-b-black border-b-2" : ""}`}
-                        onClick={() => scrollToSection("skills")}>Skills
-                    </li>
-                    <li className={` cursor-pointer ${isScrolled == 4 ? "border-b-black border-b-2" : ""}`}
                         onClick={() => scrollToSection("projects")}>Projects
                     </li>
-                    {/*<li className={` cursor-pointer ${isScrolled == 4 ? "border-b-black border-b-2" : ""}`}*/}
-                    {/*    onClick={() => scrollToSection("hobbies")}>Hobbies*/}
-                    {/*</li>*/}
+                    <li className={` cursor-pointer ${isScrolled == 4 ? "border-b-black border-b-2" : ""}`}
+                        onClick={() => scrollToSection("skills")}>Skills
+                    </li>
                     <li className={` cursor-pointer ${isScrolled == 5 ? "border-b-black border-b-2" : ""}`}
                         onClick={() => scrollToSection("contact")}>Contact
                     </li>
