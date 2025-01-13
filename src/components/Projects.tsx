@@ -37,7 +37,7 @@ const projects = [
         id: 3,
         title: "Scopie",
         desc: "Movie seat reservation system which developed to select your favourite seat",
-        img: "/portfolio-snapshot.png",
+        img: "/scopie-snapshot.png",
         tech: ["Java", "SpringBoot", "React", "SQL", "Kafka", "Docker"],
         tools: ["Visual Studio Code", "IntellijIdea", "Docker Desktop", "Git"],
         completion: "2023 Dec 10",
